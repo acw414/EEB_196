@@ -42,3 +42,4 @@ echo '######################'
 
 cd ${input}
 ${Trimgalore} --path_to_cutadapt ${cutadapt} -q 20 --fastqc -a AGATCGGAAGAGC --length 20 --paired ${file1}.fastq.gz ${file2}.fastq.gz
+# ^ modified from ${file1}.fq.gz to ${file1}.fastq.gz to match lines 36+37
