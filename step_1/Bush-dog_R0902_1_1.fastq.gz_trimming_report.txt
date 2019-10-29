@@ -1,0 +1,155 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: Bush-dog_R0902_1_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.2
+Cutadapt version: 1.8.1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' ()
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8.1 with Python 2.6.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC Bush-dog_R0902_1_1.fastq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 3497.63 s (18 us/read; 3.24 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               189121905
+Reads with adapters:                  67423108 (35.7%)
+Reads written (passing filters):     189121905 (100.0%)
+
+Total basepairs processed:   19101312405 bp
+Quality-trimmed:               252696540 bp (1.3%)
+Total written (filtered):    18755154080 bp (98.2%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 67423108 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 37.4%
+  C: 25.2%
+  G: 15.6%
+  T: 21.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	48229718	47280476.2	0	48229718
+2	14205964	11820119.1	0	14205964
+3	3972439	2955029.8	0	3972439
+4	821101	738757.4	0	821101
+5	156671	184689.4	0	156671
+6	7861	46172.3	0	7861
+7	2205	11543.1	0	2205
+8	749	2885.8	0	749
+9	3497	721.4	0	766 2731
+10	4198	180.4	1	521 3677
+11	1924	45.1	1	428 1496
+12	938	11.3	1	510 428
+13	507	2.8	1	391 116
+14	476	2.8	1	390 86
+15	512	2.8	1	407 105
+16	439	2.8	1	347 92
+17	520	2.8	1	402 118
+18	564	2.8	1	465 99
+19	272	2.8	1	178 94
+20	398	2.8	1	316 82
+21	348	2.8	1	244 104
+22	400	2.8	1	292 108
+23	310	2.8	1	213 97
+24	338	2.8	1	243 95
+25	365	2.8	1	279 86
+26	266	2.8	1	168 98
+27	294	2.8	1	221 73
+28	373	2.8	1	286 87
+29	265	2.8	1	176 89
+30	375	2.8	1	265 110
+31	199	2.8	1	108 91
+32	303	2.8	1	202 101
+33	182	2.8	1	99 83
+34	269	2.8	1	170 99
+35	217	2.8	1	121 96
+36	202	2.8	1	106 96
+37	222	2.8	1	138 84
+38	247	2.8	1	140 107
+39	190	2.8	1	98 92
+40	201	2.8	1	106 95
+41	191	2.8	1	101 90
+42	203	2.8	1	109 94
+43	291	2.8	1	191 100
+44	135	2.8	1	41 94
+45	143	2.8	1	59 84
+46	123	2.8	1	40 83
+47	157	2.8	1	69 88
+48	152	2.8	1	65 87
+49	111	2.8	1	23 88
+50	116	2.8	1	24 92
+51	128	2.8	1	43 85
+52	113	2.8	1	25 88
+53	122	2.8	1	32 90
+54	166	2.8	1	52 114
+55	131	2.8	1	39 92
+56	99	2.8	1	6 93
+57	120	2.8	1	18 102
+58	114	2.8	1	19 95
+59	128	2.8	1	40 88
+60	119	2.8	1	17 102
+61	118	2.8	1	29 89
+62	93	2.8	1	10 83
+63	103	2.8	1	16 87
+64	109	2.8	1	12 97
+65	119	2.8	1	30 89
+66	122	2.8	1	18 104
+67	95	2.8	1	5 90
+68	104	2.8	1	12 92
+69	123	2.8	1	13 110
+70	135	2.8	1	41 94
+71	124	2.8	1	33 91
+72	124	2.8	1	22 102
+73	100	2.8	1	8 92
+74	75	2.8	1	1 74
+75	87	2.8	1	0 87
+76	93	2.8	1	1 92
+77	96	2.8	1	2 94
+78	84	2.8	1	2 82
+79	84	2.8	1	0 84
+80	79	2.8	1	0 79
+81	97	2.8	1	0 97
+82	70	2.8	1	1 69
+83	82	2.8	1	1 81
+84	86	2.8	1	1 85
+85	90	2.8	1	0 90
+86	76	2.8	1	0 76
+87	83	2.8	1	1 82
+88	73	2.8	1	3 70
+89	91	2.8	1	0 91
+90	76	2.8	1	1 75
+91	77	2.8	1	2 75
+92	77	2.8	1	1 76
+93	79	2.8	1	1 78
+94	67	2.8	1	0 67
+95	73	2.8	1	0 73
+96	85	2.8	1	0 85
+97	80	2.8	1	0 80
+98	76	2.8	1	0 76
+99	55	2.8	1	1 54
+100	81	2.8	1	0 81
+101	86	2.8	1	0 86
+
+
+RUN STATISTICS FOR INPUT FILE: Bush-dog_R0902_1_1.fastq.gz
+=============================================
+189121905 sequences processed in total
+
