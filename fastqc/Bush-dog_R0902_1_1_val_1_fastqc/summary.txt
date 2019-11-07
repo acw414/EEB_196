@@ -1,0 +1,12 @@
+PASS	Basic Statistics	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Per base sequence quality	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Per tile sequence quality	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Per sequence quality scores	Bush-dog_R0902_1_1_val_1.fq.gz
+FAIL	Per base sequence content	Bush-dog_R0902_1_1_val_1.fq.gz
+WARN	Per sequence GC content	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Per base N content	Bush-dog_R0902_1_1_val_1.fq.gz
+WARN	Sequence Length Distribution	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Sequence Duplication Levels	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Overrepresented sequences	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Adapter Content	Bush-dog_R0902_1_1_val_1.fq.gz
+PASS	Kmer Content	Bush-dog_R0902_1_1_val_1.fq.gz
