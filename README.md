@@ -3,8 +3,7 @@
 
 #### Week 1   
 - (cont. from summer 2019)   
-- [codeml script](https://github.com/acw414/EEB_196/blob/master/codeml_gene_script.sh)       
-- Run codeml on genes, sort outputs to find modelA / modelAnull values, output to table   
+- [codeml script](https://github.com/acw414/EEB_196/blob/master/codeml_gene_script.sh) - run codeml on Tree_Dir fasta files, sort to find modelA / modelAnull values, output to table   
   
 #### Week 2  
 - Intro to Hoffman2  
