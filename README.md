@@ -1,4 +1,4 @@
-# Fall 2019 - EEB 196 Research Apprenticeship in Ecology and Evolutionary Biology
+## Fall 2019 - EEB 196 Research Apprenticeship in Ecology and Evolutionary Biology
 ### Anna Weir & Daniel Chavez
 
 #### Week 1   
