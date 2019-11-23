@@ -30,6 +30,7 @@
 #### Week 8  
 - Analysis of fastqc reports  
 - [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh) troubleshooting  
+- Hoffman2 space issues  
   
 #### Week 9  
     
