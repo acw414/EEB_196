@@ -21,17 +21,28 @@
 - NGS_Pipeline troubleshooting  
   
 #### Week 6  
-- [/step_1/filter_illumina.sh](https://github.com/acw414/EEB_196/tree/master/step_1) on Bush-dog_R0902_1  
+- creation of [/step_1/filter_illumina.sh](https://github.com/acw414/EEB_196/tree/master/step_1) 
+- running [/step_1/filter_illumina.sh](https://github.com/acw414/EEB_196/tree/master/step_1) on Bush-dog_R0902_1  
   
 #### Week 7  
 - Analysis of filter_illumina trimming reports  
-- [/fastqc/FastaQC.sh](https://github.com/acw414/EEB_196/tree/master/fastqc) on Bush-dog_R0902_1  
+- creation of [/fastqc/FastaQC.sh](https://github.com/acw414/EEB_196/tree/master/fastqc) 
+- running [/fastqc/FastaQC.sh](https://github.com/acw414/EEB_196/tree/master/fastqc) on Bush-dog_R0902_1  
   
 #### Week 8  
 - Analysis of fastqc reports  
-- [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh) troubleshooting  
-- Hoffman2 space issues  
+- creation of [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh) 
+- running [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh) on Bush-dog_R0902_1 
   
 #### Week 9  
-    
-#### Week 10  
+- troubleshooting with [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh)  
+  - Hoffman space issues
+  - Resolved by changing memory requested
+  - script outputs an empty file  
+  - fixed with modifying inputs 
+
+#### Week 10 + Finals
+- troubleshooting with [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh)  
+  - script outputs an empty file
+  - resolved by renaming multiple Bush-dog_R0902_1 inputs >> Bush-dog_R0902
+  - Hoffman space issues again   
