@@ -1,7 +1,7 @@
 ## Fall 2019 - EEB 196 Research Apprenticeship in Ecology and Evolutionary Biology
 ### Anna Weir & Daniel Chavez
 
-#### Week 1   
+#### Week 1 
 - (cont. from summer 2019)   
 - creation of [codeml script](https://github.com/acw414/EEB_196/blob/master/codeml_gene_script.sh) 
   - run codeml on Tree_Dir fasta files   
@@ -48,4 +48,4 @@
 - troubleshooting with [align_samtobam_sort_addRGinfo_140818.sh](https://github.com/acw414/EEB_196/blob/master/align_samtobam_sort_addRGinfo_140818.sh)  
   - script outputs an empty file
   - resolved by renaming multiple Bush-dog_R0902_1 inputs >> Bush-dog_R0902
-  - Hoffman space issues again   
+  - Hoffman space issues 
