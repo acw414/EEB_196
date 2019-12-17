@@ -49,3 +49,8 @@
   - script outputs an empty file
   - resolved by renaming multiple Bush-dog_R0902_1 inputs >> Bush-dog_R0902
   - Hoffman space issues 
+ 
+##### NEXT QUARTER
+- Contact Hoffman RE memory issues: [bwt_restore_bwt] Failed to allocate 18446744073709551576 bytes at bwt.c line 452: Cannot allocate memory
+- Finish all steps in NGS_Pipeline
+- Create final Comparative Genomics pipeline
